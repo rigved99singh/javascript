@@ -99,28 +99,28 @@
 
 // polymorphism
 
-class Animal {
-    speak(){
-        console.log("Animal sound...");
+// class Animal {
+//     speak(){
+//         console.log("Animal sound...");
         
-    }
-}
-class  Dog extends Animal {
-    speak(){
-        console.log("bhau bhau");
+//     }
+// }
+// class  Dog extends Animal {
+//     speak(){
+//         console.log("bhau bhau");
         
-    }
-}
-class Cat extends Animal {
-    speak(){
-        console.log("meow meow");
+//     }
+// }
+// class Cat extends Animal {
+//     speak(){
+//         console.log("meow meow");
         
-    }
-}
-let a1 = new Dog()
-let a2 = new Cat()
-a1.speak()
-a2.speak()
+//     }
+// }
+// let a1 = new Dog()
+// let a2 = new Cat()
+// a1.speak()
+// a2.speak()
 
 
 
